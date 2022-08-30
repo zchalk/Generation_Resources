@@ -11,6 +11,9 @@ header{
     justify-content:space-around;
     align-items:center;
 }
+.h1_wrapper {
+    text-decoration: none;
+}
 h1{
     font-family: 'Shrikhand', cursive;
     font-size: 4.5rem;
@@ -19,7 +22,7 @@ h1{
     background: -webkit-linear-gradient(rgb(129,232,233), rgb(146, 234, 140));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    padding-right: 10px;
+    padding-right: 1.5rem;
 
 }
 .ul_nav{
@@ -31,15 +34,30 @@ h1{
     list-style-type: none;
 }
 .header_a{
+    /* text alignment */
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+    /* text */
     font-family: 'Shrikhand', cursive;
     font-size: 1.5rem;
     text-decoration: none;
-    margin-left: 30px;
+
+    /* box */
+    margin-left: 3rem;
+    height: 3rem;
+    width: 9rem;
+    border-radius: .5rem;
 
     /* font gradient */
     background: -webkit-linear-gradient(rgb(129,232,233), rgb(146, 234, 140));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+.header_a:hover {
+    -webkit-text-fill-color: white;
+    background: -webkit-linear-gradient(rgb(129,232,233), rgb(146, 234, 140));
 }
 main {
     display: flex;
@@ -56,7 +74,7 @@ main {
 .main_h2_1{
     font-size: 5rem;
     display: block;
-    padding: 10px 20px;
+    padding: 1.5rem 2.5rem;
 
     /* font gradient */
     background: -webkit-linear-gradient(left, rgb(129,232,233), rgb(146, 234, 140));
@@ -69,7 +87,7 @@ main {
 }
 .main_h2_2{
     font-size: 5rem;
-    padding:10px 20px;
+    padding: 1.5rem 2.5rem;
     color:white;
 
     /* background gradient/ style */
@@ -77,7 +95,7 @@ main {
     background: linear-gradient(90deg, rgba(129,232,233,1) 0%, rgb(146, 234, 140) 100%);
     clip-path: inset(-1% -1% 50% -1%);
     position: absolute;
-    border-radius: 15px;
+    border-radius: 1.25rem;
 }
 section {
     display: flex;
@@ -88,6 +106,9 @@ section {
     justify-content: center;
     align-items:center;
 
+    /* transition: all 1s ease-in-out; */
+    /* not working not sure why */
+
     /* text mods */
     text-decoration: none;
     color: white;
@@ -95,19 +116,24 @@ section {
     font-size: 2rem;
 
     /* gradient boxes */
-    height: 200px;
-    width: 200px;
-    margin:20px;
-    border-radius: 15px;
-    background: rgb(129,232,233);
+    height: 12rem;
+    width: 12rem;
+    margin:2.5rem;
+    border-radius: 1.5rem;
+    /* background: rgb(129,232,233); */
     background: linear-gradient(0deg, rgba(129,232,233,1) 0%, rgba(118,228,124,1) 100%);
+}
+.main_a:hover {
+    background: rgba(118,228,124,1);
+    background: linear-gradient(0deg, rgba(118,228,124,1) 0%, rgba(129,232,233,1) 100%);
+    
 }
 .section_container {
     display: flex;
     justify-content:space-around;
 }
 .subpage_sections{
-    margin:40px;
+    margin: 4rem;
 }
 .main_h3{
     font-size: 3rem;
@@ -124,15 +150,18 @@ footer {
     justify-content:space-around;
     align-items:center;
 }
+.h3_footer_wrapper{
+    text-decoration: none;
+}
 .footer_h3{
     font-family: 'Shrikhand', cursive;
-    font-size: 2rem;
+    font-size: 2.5rem;
 
     /* font gradient */
     background: -webkit-linear-gradient(rgb(129,232,233), rgb(146, 234, 140));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    padding-right: 10px;
+    padding-right: 1.5rem;
 }
 .footer_ul{
     display: flex;
@@ -143,13 +172,28 @@ footer {
     list-style-type: none;
 }
 .footer_a{
+    /* text alignment */
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+    /* text */
     font-family: 'Shrikhand', cursive;
-    font-size: 1rem;
+    font-size: 1.25rem;
     text-decoration: none;
-    margin-left: 30px;
+    margin-left: 3.5rem;
+
+    /* box */
+    height: 2rem;
+    width: 6.75rem;
+    border-radius: .5rem;
 
     /* font gradient */
     background: -webkit-linear-gradient(rgb(129,232,233), rgb(146, 234, 140));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+.footer_a:hover{
+    background: -webkit-linear-gradient(rgb(129,232,233), rgb(146, 234, 140));
+    -webkit-text-fill-color: white;
 }
