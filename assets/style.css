@@ -1,9 +1,6 @@
 *{
     font-family: 'Fugaz One', cursive;
 }
-html{
-    font-size: 100%;
-}
 body {
     display: flex;
     flex-direction: column;
@@ -16,7 +13,7 @@ header{
 }
 h1{
     font-family: 'Shrikhand', cursive;
-    font-size: 4rem;
+    font-size: 4.5em;
 
     /* font gradient */
     background: -webkit-linear-gradient(rgb(129,232,233), rgb(146, 234, 140));
@@ -35,7 +32,7 @@ h1{
 }
 .header_a{
     font-family: 'Shrikhand', cursive;
-    font-size: 1.25rem;
+    font-size: 1.5em;
     text-decoration: none;
     margin-left: 30px;
 
@@ -57,7 +54,7 @@ main {
 	justify-content: center;
 }
 .main_h2_1{
-    font-size: 3.5rem;
+    font-size: 5rem;
     display: block;
     padding: 10px 20px;
 
@@ -71,7 +68,7 @@ main {
 
 }
 .main_h2_2{
-    font-size: 3.5rem;
+    font-size: 5rem;
     padding:10px 20px;
     color:white;
 
@@ -129,7 +126,7 @@ footer {
 }
 .footer_h3{
     font-family: 'Shrikhand', cursive;
-    font-size: 2rem;
+    font-size: 2em;
 
     /* font gradient */
     background: -webkit-linear-gradient(rgb(129,232,233), rgb(146, 234, 140));
@@ -147,7 +144,7 @@ footer {
 }
 .footer_a{
     font-family: 'Shrikhand', cursive;
-    font-size: 1rem;
+    font-size: 1em;
     text-decoration: none;
     margin-left: 30px;
 
