@@ -13,7 +13,7 @@ header{
 }
 h1{
     font-family: 'Shrikhand', cursive;
-    font-size: 4.5em;
+    font-size: 4.5rem;
 
     /* font gradient */
     background: -webkit-linear-gradient(rgb(129,232,233), rgb(146, 234, 140));
@@ -32,7 +32,7 @@ h1{
 }
 .header_a{
     font-family: 'Shrikhand', cursive;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     text-decoration: none;
     margin-left: 30px;
 
@@ -126,7 +126,7 @@ footer {
 }
 .footer_h3{
     font-family: 'Shrikhand', cursive;
-    font-size: 2em;
+    font-size: 2rem;
 
     /* font gradient */
     background: -webkit-linear-gradient(rgb(129,232,233), rgb(146, 234, 140));
@@ -144,7 +144,7 @@ footer {
 }
 .footer_a{
     font-family: 'Shrikhand', cursive;
-    font-size: 1em;
+    font-size: 1rem;
     text-decoration: none;
     margin-left: 30px;
 
