@@ -1,1 +1,155 @@
+*{
+    font-family: 'Fugaz One', cursive;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+}
+h1{
+    font-family: 'Shrikhand', cursive;
+    font-size: 4.5em;
+
+    /* font gradient */
+    background: -webkit-linear-gradient(rgb(129,232,233), rgb(146, 234, 140));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-right: 10px;
+
+}
+.ul_nav{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+.header_li{
+    list-style-type: none;
+}
+.header_a{
+    font-family: 'Shrikhand', cursive;
+    font-size: 1.5em;
+    text-decoration: none;
+    margin-left: 30px;
+
+    /* font gradient */
+    background: -webkit-linear-gradient(rgb(129,232,233), rgb(146, 234, 140));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.h2_container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.main_h2_1{
+    font-size: 5rem;
+    display: block;
+    padding: 10px 20px;
+
+    /* font gradient */
+    background: -webkit-linear-gradient(left, rgb(129,232,233), rgb(146, 234, 140));
+    background: -o-linear-gradient(right, rgb(129,232,233), rgb(146, 234, 140));
+    background: -moz-linear-gradient(right, rgb(129,232,233), rgb(146, 234, 140));
+    background: linear-gradient(to right, rgb(129,232,233) , rgb(146, 234, 140)); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.main_h2_2{
+    font-size: 5rem;
+    padding:10px 20px;
+    color:white;
+
+    /* background gradient/ style */
+    background: rgb(129,232,233);
+    background: linear-gradient(90deg, rgba(129,232,233,1) 0%, rgb(146, 234, 140) 100%);
+    clip-path: inset(-1% -1% 50% -1%);
+    position: absolute;
+    border-radius: 15px;
+}
+section {
+    display: flex;
+}
+.main_a {
+    /* text alignment */
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+    /* text mods */
+    text-decoration: none;
+    color: white;
+    font-family: 'Shrikhand', cursive;
+    font-size: 2rem;
+
+    /* gradient boxes */
+    height: 200px;
+    width: 200px;
+    margin:20px;
+    border-radius: 15px;
+    background: rgb(129,232,233);
+    background: linear-gradient(0deg, rgba(129,232,233,1) 0%, rgba(118,228,124,1) 100%);
+}
+.section_container {
+    display: flex;
+    justify-content:space-around;
+}
+.subpage_sections{
+    margin:40px;
+}
+.main_h3{
+    font-size: 3rem;
+    background: -webkit-linear-gradient(rgb(129,232,233), rgb(146, 234, 140));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 /*  */
+
+footer {
+    margin-top:auto;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.footer_h3{
+    font-family: 'Shrikhand', cursive;
+    font-size: 2em;
+
+    /* font gradient */
+    background: -webkit-linear-gradient(rgb(129,232,233), rgb(146, 234, 140));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-right: 10px;
+}
+.footer_ul{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+.footer_li{
+    list-style-type: none;
+}
+.footer_a{
+    font-family: 'Shrikhand', cursive;
+    font-size: 1em;
+    text-decoration: none;
+    margin-left: 30px;
+
+    /* font gradient */
+    background: -webkit-linear-gradient(rgb(129,232,233), rgb(146, 234, 140));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
